@@ -1,4 +1,5 @@
 import React from 'react';
+import favicon from '../../resources/favicon.png';
 import { User } from 'lucide-react';
 
 export function About() {
@@ -12,7 +13,7 @@ export function About() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
             <img
-              src="../../resorces/favicon.PNG"
+              src={favicon}
               alt="Profile image"
               className="rounded-lg shadow-lg"
             />
