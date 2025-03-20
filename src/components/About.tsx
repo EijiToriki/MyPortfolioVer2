@@ -12,7 +12,7 @@ export function About() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
             <img
-              src="/favicon.PNG"
+              src="../../resorces/favicon.PNG"
               alt="Profile image"
               className="rounded-lg shadow-lg"
             />
